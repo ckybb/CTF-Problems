@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  nctuto:
+    container_name: "nc_tutorial"
+    build: .
+    tty: true
+    ports:
+      - 1001:1001

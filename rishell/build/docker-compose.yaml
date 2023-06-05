@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  rishell:
+    container_name: "rishell_1"
+    build: .
+    tty: true
+    ports:
+      - 2001:2001
